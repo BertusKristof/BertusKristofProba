@@ -1,1 +1,2 @@
-<p>parent works!</p>
+<input type="text" [(ngModel)]="parentText" placeholder="Írj valamit..." />
+<app-child [childText]="parentText"></app-child>
